@@ -1,0 +1,324 @@
+/* ================================================== 
+*	Project Name 	:  Arthor
+*	File 			:  Responsive CSS Base
+*	Version 		:  1.0.0
+*	Last change 	:  16 March 2019
+*	Author 			:  ----------
+
+*	css code for responsive layout To make Responsive
+================================================== */
+
+/* ==================================================
+*	1 - media screen and (max-width: 1680px)
+*	2 - media screen and (max-width: 1440px)
+*	3 - media screen and (max-width: 1380px)
+*	4 - media screen and (max-width: 1199px)
+*	5 - media screen and (max-width: 991px)
+*	6 - media screen and (max-width: 767px)
+*	7 - media screen and (max-width: 680px)
+*	8 - media screen and (max-width: 480px)
+*	9 - media screen and (max-width: 320px)
+================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+1 - media screen and (max-width: 1680px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1680px) {}
+
+/* ====================================================================================================
+1 - media screen and (max-width: 1680px) - end
+==================================================================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+2 - media screen and (max-width: 1440px) - start
+==================================================================================================== */
+@media screen and (max-width: 1440px) {}
+
+/* ====================================================================================================
+2 - media screen and (max-width: 1440px) - end
+==================================================================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+3 - media screen and (max-width: 1380px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1380px) {}
+
+/* ====================================================================================================
+3 - media screen and (max-width: 1380px) - end
+==================================================================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+4 - media screen and (max-width: 1199px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1199px) {
+	.home-slider .swiper-container {
+		height: 70vh;
+	}
+	.home-slider .slide-inner--info {
+		top: 60%;
+		left: 50%;
+		width: 60%;
+		text-align: center;
+		-webkit-transform: translate(-50%,-60%);
+		-ms-transform: translate(-50%,-60%);
+		-o-transform: translate(-50%,-60%);
+		transform: translate(-50%,-60%);
+	}
+	.home-slider .slide-inner--info h1 {
+		font-size: 47px;
+	}
+
+	.cover__content {
+		height: auto;
+		text-align: center;
+		padding: 300px 15px;
+	}
+	.cover p {
+		display: table;
+		margin: 0 auto 50px;
+	}
+
+}
+
+/* ====================================================================================================
+4 - media screen and (max-width: 1199px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+5 - media screen and (max-width: 991px) - start --->>>for medium device
+==================================================================================================== */
+
+@media screen and (max-width: 991px) {
+	.navbar {
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		width: 100%;
+		height: auto;
+		position: fixed;
+	}
+	.navbar .container {
+		display: none;
+	}
+	.navbar .logo-holder {
+		width: 60px;
+		height: 60px;
+		float: left;
+		line-height: 60px;
+	}
+	.navbar .offcanvas-toggler {
+		width: 60px;
+		float: right;
+		height: 60px;
+	}
+
+	.home-slider .slide-inner--info h1 {
+		font-size: 30px;
+	}
+	.home-slider .slide-inner--info p {
+		margin-bottom: 50px;
+	}
+
+	.story .story-img-block {
+		display: table;
+		max-width: 360px;
+		margin: 0 auto 50px;
+	}
+	.story .story-details {
+		display: table;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.services .card.service {
+		margin-top: 30px;
+	}
+
+	.cover h1 {
+		font-size: 36px;
+	}
+
+	.cover__content {
+		padding: 200px 15px;
+	}
+
+}
+
+/* ====================================================================================================
+5 - media screen and (max-width: 991px) - end --->>>for medium device
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+6 - media screen and (max-width: 767px) - start --->>>For Mobile Device
+==================================================================================================== */
+
+@media screen and (max-width: 767px) {}
+
+/* ====================================================================================================
+6 - media screen and (max-width: 767px) - end --->>>For Mobile Device
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+7 - media screen and (max-width: 680px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 680px) {}
+
+/* ====================================================================================================
+7 - media screen and (max-width: 680px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+8 - media screen and (max-width: 480px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 480px) {
+	.navbar .logo-holder .brand-logo {
+		width: 100%;
+		display: block;
+	}
+	.navbar .logo-holder .brand-logo img {
+		max-width: 60%;
+	}
+
+	.home-slider .swiper-container {
+		height: 70vh;
+	}
+	.home-slider .slide-inner--info {
+		top: 25%;
+		left: 50%;
+		width: 100%;
+		z-index: 100;
+		display: table;
+		padding: 0px 30px;
+		text-align: center;
+		position: absolute;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.home-slider .slide-inner--info h1 {
+		font-size: 24px;
+	}
+
+	.home-slider .slide-inner--info p {
+		margin-bottom: 30px;
+	}
+	.home-slider .navigations-connect {
+		display: none;
+	}
+
+	.story-details h3 {font-size: 24px;}
+	.background-dark .section-title__main {font-size: 24px;}
+	.process-content h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.cover h1 {
+		font-size: 24px;
+	}
+
+}
+
+/* ====================================================================================================
+8 - media screen and (max-width: 480px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+9 - media screen and (max-width: 320px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 320px) {
+	.home-slider .swiper-container {
+		height: 80vh;
+	}
+	.home-slider .slide-inner--info {
+		top: 25%;
+		left: 50%;
+		width: 100%;
+		z-index: 100;
+		display: table;
+		padding: 0px 30px;
+		text-align: center;
+		position: absolute;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	.home-slider .slide-inner--info h1 {
+		font-size: 20px;
+	}
+
+	.home-slider .slide-inner--info p {
+		font: 14px;
+		margin-bottom: 30px;
+	}
+	.story-details h3 {
+		font-size: 18px;
+	}
+	.section-title__main {
+		line-height: 30px;
+		font-size: 23px;
+	}
+	.process-content h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.cta-inner {
+		padding: 25px;
+	}
+	.cta-inner h6 {
+		font-size: 14px;
+	}
+
+	.cover__content {
+		padding: 150px 15px;
+	}
+}
+
+/* ====================================================================================================
+9 - media screen and (max-width: 320px) - end
+==================================================================================================== */
